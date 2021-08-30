@@ -15,9 +15,6 @@ public class CinemaHall {
     private int capacity;
     private String description;
 
-    public CinemaHall() {
-    }
-
     public Long getId() {
         return id;
     }
@@ -47,7 +44,6 @@ public class CinemaHall {
         return "CinemaHall{"
                 + "id=" + id
                 + ", capacity=" + capacity
-                + ", description='" + description + '\''
-                + '}';
+                + ", description='" + description + '\'' + '}';
     }
 }
